@@ -4,7 +4,7 @@
 
 main()
 {
-	int a=2,w,h,l;
+	int a=2,w,h,l;					// data member.....
 	
 	printf("enter width:");
 	scanf("%d",&w);
@@ -15,7 +15,7 @@ main()
 	printf("enter length:");
 	scanf("%d",&l);
 	
-	a=(w*l+h*l+h*w);
+	a=(w*l+h*l+h*w);				// formulass of area of rectangular prism....
 	
 	printf("area of rectangular prism:%d",a);
 	

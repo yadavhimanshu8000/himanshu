@@ -4,12 +4,12 @@
 
 main()
 {
-	int c;
+	int c;				// data member.....
 	
 	printf("enter number:");
 	scanf("%d",&c);
 	
-	if(c>=33 && c<=127)
+	if(c>=33 && c<=127)				//using condition of ascii number....
 	{
 		printf("ascii: %d \nvalue of asicc:%c",c,(char)c);
 	}

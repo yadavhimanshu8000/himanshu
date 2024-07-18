@@ -4,12 +4,12 @@
 
 main()
 {
-	float radius,area,circumference;
+	float radius,area,circumference;						//data member in float...
 	
 	printf("enter the radius:");
 	scanf("%f",&radius);
 	
-	area=3.14*radius*radius;
+	area=3.14*radius*radius;					//formulass...
 	circumference=2*3.14*radius;
 	
 	printf("\n area of the circle %.2f",(float)area);

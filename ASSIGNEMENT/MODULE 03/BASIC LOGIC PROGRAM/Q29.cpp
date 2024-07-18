@@ -4,12 +4,12 @@
 
 main()
 {
-	int minutes,second,hours;
+	int minutes,second,hours;			// data members....
 	
 	printf("enter the minutes:");
 	scanf("%d",&minutes);
 	
-	second=minutes*60;
+	second=minutes*60;				// formulas convert minutes into second and hours.....
 	hours=minutes/60;
 	{
 	

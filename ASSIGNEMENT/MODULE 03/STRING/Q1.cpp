@@ -11,8 +11,8 @@
  	printf("enter anything:");
  	gets(a);
  	
- 	for(i=0;a[i]!='0';i++)
+ 	for(i=0;a[i]!='\0';i++);			//using without inbuild function...
  	{
- 		printf("%d",i);
+ 		printf("\nlength of string:%d",i);
 	 }
  }

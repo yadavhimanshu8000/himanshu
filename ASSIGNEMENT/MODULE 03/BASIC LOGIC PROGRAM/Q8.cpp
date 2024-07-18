@@ -4,12 +4,12 @@
 
 main()
 {
-	int a,c;
+	int a,c;						// data member.....
 	
 	printf("enter number:");
 	scanf("%d",&a);
 	
-	c=4*a;
+	c=4*a;										//formulas of circumference of rectangle...
 	printf("circumference of rectangle:%d",c);
 
 

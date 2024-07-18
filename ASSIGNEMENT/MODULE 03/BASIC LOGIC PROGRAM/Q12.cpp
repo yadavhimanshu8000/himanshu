@@ -5,11 +5,11 @@
 
 main()
 {
-	int c,a ,b=5;
+	int c,a ,b=5;			// data member.......
 	printf("enter the user:");
 	scanf("%d",&a);
 	
-	c=a*b;
+	c=a*b;						// formulass of how many apple are required.... 
 	printf("required apples:%d",c);
 	
 	

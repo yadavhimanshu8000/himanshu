@@ -4,7 +4,7 @@
 
 main()
 {
-	printf("singh himanshu");
+	printf("singh himanshu");				//normaly print ......
 	printf("\n10-06-2002");
 	printf("\n22");
 	printf("\nb-98 asopalav society vatva ahmedabad");

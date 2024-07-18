@@ -4,12 +4,12 @@
 
 main()
 {
-	int kilometre , metre;
+	int kilometre , metre;			// data members...
 	
 	printf("enter kilometre:");
 	scanf("%d",&kilometre);
 	
-	metre=kilometre*1000;
+	metre=kilometre*1000;			// formulass of kilometre into metre....
 	
 	printf("convert metre: %d",metre);
 }

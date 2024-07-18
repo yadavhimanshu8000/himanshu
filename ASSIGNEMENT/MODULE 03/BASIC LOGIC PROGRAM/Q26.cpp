@@ -3,13 +3,14 @@
 #include<stdio.h>
 
 main()
+
 {
-	int c,f;
+	int c,f;				// data member...
 	{
 		printf("enter fahrenheit:");
 		scanf("%d",&f);
 		
-		c=(f-32)/1.8;			//formula
+		c=(f-32)/1.8;			//formula of temperature fahrenheit to celsius...
 		
 		printf("celsius %d.",c);
 		

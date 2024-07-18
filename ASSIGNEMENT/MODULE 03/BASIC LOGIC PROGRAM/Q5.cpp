@@ -4,10 +4,10 @@
 
 main()
 {
-	int a;
+	int a;					//data member......
 	printf("enter no:");
 	scanf("%d",&a);
 	
-	a=6*a*2;
+	a=6*a*2;						//formulas of area of cube....
 	printf("%d",a);
 }

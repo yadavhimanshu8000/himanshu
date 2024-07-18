@@ -68,12 +68,12 @@ main()
 					{
 						if(b[i]<b[j])
 						{
-							temp=b[j];
-							b[j]=b[i];
-							b[i]=temp;
+							temp=a[j];
+							a[j]=a[i];
+							a[i]=temp;
 						}
 					}
-						printf("  %d, ",b[i]);
+						printf("  %d, ",a[i]);
 				}
 			
 			}
@@ -85,14 +85,14 @@ main()
 				{
 					for(j=i+1;j<2;j++)
 					{
-						if(a[i]>a[j])
+						if(b[i]>b[j])
 						{
-							temp=a[i];
-							a[i]=a[j];
-							a[j]=temp;
+							temp=b[i];
+							b[i]=b[j];
+							b[j]=temp;
 						}
 					}
-						printf("  %d, ",a[i]);
+						printf("  %d, ",b[i]);
 				}
 			
 			}

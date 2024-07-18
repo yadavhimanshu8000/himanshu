@@ -4,13 +4,13 @@
 
 main()
 {
-	int year,days,month;
+	int year,days,month;		// data members....
 	
 	
 		printf("enter a year:");
 		scanf("%d",&year);
 		
-		days=year*365;
+		days=year*365;			// formulass year convert into day and month...
 		month=year*12;
 		
 		printf("convert days:%d ",days);

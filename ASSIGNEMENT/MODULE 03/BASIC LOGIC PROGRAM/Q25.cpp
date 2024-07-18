@@ -1,17 +1,6 @@
-//Q(26) convert temperature fahrenheit to celsius...
+//Q(25) Accept 5 expense from user and find average of expense.....
 
 #include<stdio.h>
 
 main()
-{
-	int c,f;
-	{
-		printf("enter fahrenheit:");
-		scanf("%d",&f);
-		
-		c=(f-32)/1.8;			//formula
-		
-		printf("celsius %d.",c);
-		
-	}
-}
+

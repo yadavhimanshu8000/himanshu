@@ -3,6 +3,7 @@
  struct mystructure{
  	int a;
  	int b;
+ 	
  }s1;
 
 
@@ -18,6 +19,6 @@ main()
 	printf("\nenter the number2:");
 	scanf("%d",&s1.b);
 	
-	printf("\n%d",s1.a);
-	printf("\n%d",s1.b);
+	printf("\n%d ",s1.a+s1.b);
+//	printf("\n%d",s1.b);
 }

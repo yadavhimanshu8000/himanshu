@@ -4,7 +4,7 @@
 
 main()
 {
-	int a,b,h;
+	int a,b,h;						// data member....
 	
 	
 	printf("enter base:");
@@ -13,7 +13,7 @@ main()
 	printf("enter height:");
 	scanf("%d",&h);
 	
-	a=0.5*b*h;
+	a=0.5*b*h;										//formulas... of area of triangle....
 	printf("\n area of triangle: %d",a);
 	
 	

@@ -4,7 +4,7 @@
 
 main()
 {
-	int a,w,l;
+	int a,w,l;								// data member...
 	
 	printf("enter width:");
 	scanf("%d",&w);
@@ -12,6 +12,6 @@ main()
 	printf("enter length");
 	scanf("%d",&l);
 	
-	a=w*l;
+	a=w*l;									// formulass of area of rectangle....
 	printf("\narea of rectangle:%d",a);
 }
