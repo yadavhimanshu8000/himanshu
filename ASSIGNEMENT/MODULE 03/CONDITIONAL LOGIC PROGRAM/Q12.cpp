@@ -13,5 +13,5 @@ main()
 	printf("enter the number3:");
 	scanf("%d",&c);
 	
-	(a>b && a>c)? printf("a is grester") : (b>a && b>c)  ?:printf("b is ..."); ?: printf("c is greater");
+	a>b? (a>c?printf("a is greater.."):printf("c is greater...")): (b>c?printf("b is greater"):printf("c is greater"));
 }
