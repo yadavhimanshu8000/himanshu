@@ -10,11 +10,11 @@
 	
 	printf("\n first matrix");
 	
-	for(i=0;i<2;i++)					// for loop using for first matrix.....
+	for(i=0;i<2;i++)					//    for loop using for first matrix.....
 	{
 		for(j=0;j<2;j++)
 		{
-			printf("\nenter the number:");
+			printf("\nenter the number:" );
 			scanf("%d",&a[i][j]);
 			
 		}
