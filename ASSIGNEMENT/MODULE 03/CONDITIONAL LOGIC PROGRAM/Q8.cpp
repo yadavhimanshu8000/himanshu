@@ -6,12 +6,12 @@
 
 main()
 {
-	int height;
+	int height;					//data member....
 	
 	printf("enter height in centimeter:");
 	scanf("%d",&height);
 	
-	if(height>=152 && height<=182)
+	if(height>=152 && height<=182)			//condition of if and multiple else if...
 	{
 		printf("average height....");
 	}

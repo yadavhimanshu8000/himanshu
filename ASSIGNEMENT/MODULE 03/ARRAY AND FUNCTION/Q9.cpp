@@ -24,7 +24,7 @@ main()
 
 #include<stdio.h>
 
-union hello{
+union hello{					//using union.....
 	int a[2];
 	int b[2],i;
 	
@@ -37,7 +37,7 @@ main()
 {
 	for(s1.i=1;s1.i<2;s1.i++)
 	{
-	printf("\nenter the number1:");
+	printf("\nenter the number1:");			// input....
 	scanf("%d",&s2.a[s1.i]);
 	}
 	
@@ -45,7 +45,7 @@ main()
 	
 	for(s1.i=1;s1.i<2;s1.i++)
 	{
-		printf("\nenter the number2:");
+		printf("\nenter the number2:");		// input2
 		scanf("%d",&s3.b[s1.i]);
 	}
 	
@@ -54,7 +54,7 @@ main()
 	for(s1.i=1;s1.i<2;s1.i++)
 	
 	{
-		printf("%d",s2.a[s1.i]+s3.b[s1.i]);
+		printf("%d",s2.a[s1.i]+s3.b[s1.i]);			// addition...
 	}
 	
 }

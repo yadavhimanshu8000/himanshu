@@ -2,17 +2,18 @@
 
 #include <stdio.h>
 
-int main() {
-    int t1 = 0, t2 = 1, nextTerm, n ,i;
+int main()
+ {
+    int t1 = 0, t2 = 1, nextTerm, n ,i;			//datamember...
 
     printf("Enter the number of terms: ");
     scanf("%d", &n);
 
   
-    printf("Fibonacci Series: %d, %d, ", t1, t2);
+    printf("Fibonacci Series: %d, %d, ", t1, t2);				// fibonacci...
 
     
-    for ( i = 3; i <= n; i++) 					//3 n=7
+    for ( i = 3; i <= n; i++) 							//using for loop...
 	{
         nextTerm = t1 + t2;
         printf("%d, ", nextTerm);

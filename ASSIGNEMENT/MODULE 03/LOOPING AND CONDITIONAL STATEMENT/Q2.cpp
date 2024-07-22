@@ -4,9 +4,9 @@
 
 main()
 {
-	int h,i,m,a,n;
+	int h,i,m,a,n;				//data member....
 	
-	printf("enter the number:");
+	printf("enter the number:");			// five user input....
 	scanf("%d",&h);
 	
 	printf("enter the number:");
@@ -24,7 +24,7 @@ main()
 	{
 		printf("\ndisplay the user input.......");
 		
-		printf("\n%d",h);
+		printf("\n%d",h);			// print all the member number....
 		printf("\n%d",i);
 		printf("\n%d",m);
 		printf("\n%d",a);

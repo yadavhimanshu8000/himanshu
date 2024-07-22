@@ -5,14 +5,14 @@
 
 main()
 {
-	int marks,pass=34;
+	int marks,pass=34;				//data member....
 	
 	printf("enter a marks:");
 	scanf("%d",&marks);
 	
-	if(marks>=pass)
+	if(marks>=pass)					//condition...
 	{
-		printf("student is pass ....");
+		printf("student is pass ....");             
 	}
 	else
 	{

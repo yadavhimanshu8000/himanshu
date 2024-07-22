@@ -4,18 +4,18 @@
 
 main()
 {
-	int a[5],i,sum=0;
+	int a[5],i,sum=0;			//data member...
 	
 	printf("enter the five number....\n");
 	
-	for(i=0;i<5;i++)
+	for(i=0;i<5;i++)				/// using loop....
 	{
 		printf("%d.",i+1);
 		scanf("%d",&a[i]);
 	}
 	printf("-------------------------------\n");
 	
-	for(i=0;i<5;i++)
+	for(i=0;i<5;i++)				// using loop....
 	{
 		sum=sum+a[i];
 	}

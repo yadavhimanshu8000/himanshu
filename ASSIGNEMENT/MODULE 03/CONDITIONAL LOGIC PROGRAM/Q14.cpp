@@ -4,7 +4,7 @@
 
 main()
 {
-	int a,b,c;
+	int a,b,c;			// data member...
 	
 	printf("enter first number:");
 	scanf("%d",&a);
@@ -15,7 +15,7 @@ main()
 	printf("\nenter third number:");
 	scanf("%d",&c);
 	
-	if(a>b && a>c)
+	if(a>b && a>c)					//condition.....
 	{
 		printf("\n A is greater number:%d",a);
 	}

@@ -5,14 +5,14 @@
 
 main()
 {
-	int i,n;
+	int i,n;			//data member....
 	
 	printf("enter any number:");
 	scanf("%d",&n);
 	
-	for(i=1;i<=10;i++)
+	for(i=1;i<=10;i++)			//FOR LOOP....
 	
 	{
-		printf(" \n%d*%d=%d",n,i,n*i);
+		printf(" \n%d*%d=%d",n,i,n*i);			//PRINT.....
 	}
 }

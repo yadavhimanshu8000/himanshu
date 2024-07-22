@@ -1,27 +1,28 @@
-// Q(02) WAP of Addition, Subtraction, Multiplication and Division using Switch case.(Must Be Menu Driven).....
+/* Q(02) WAP of Addition, Subtraction, Multiplication and Division using Switch case.
+                       (Must Be Menu Driven).....*/
 
 #include<stdio.h>
 
 main()
 
 {
-	int choice,a,b;
+	int choice,a,b;     //data member.....
 	
-	while(choice!=5)
+	while(choice!=5)					// using while loop...
 	{
 	
 	
-	printf("\n****enter what you want*****\n");
+	printf("\n****enter what you want*****\n");				// normal print
 	printf("\n 1. ADDTION\n");
 	printf("\n 2. subtraction\n");
 	printf("\n 3. multiplication\n");
 	printf("\n 4. division\n");
 	printf("\n 5. exit\n");
 	
-	printf("\nenter your choice:\n");
+	printf("\nenter your choice:\n");						// enter choice...
 	scanf("%d",&choice);
 		
-		if(choice>=1 && choice<5)
+		if(choice>=1 && choice<5)					// if else condition...
 		{					
 						//take two numbers from user
 			printf("\nEnter two numbers : \n No. 1 : ");
@@ -32,7 +33,7 @@ main()
 
 	
 	
-	switch(choice)
+	switch(choice)					// switch case condition....
 	{
 		case 1: printf("\nADDTION OF TWO NUMBER.....%d+%d=%d\n",a,b,a+b);
 				printf("\n \n------------------------\n \n");

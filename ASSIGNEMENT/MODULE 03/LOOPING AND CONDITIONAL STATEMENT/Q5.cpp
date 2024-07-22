@@ -4,14 +4,14 @@
 
 main()
 {
-	int num,i,fact=1;
+	int num,i,fact=1;      				// data member....
 	
 	printf("enter the number:");
 	scanf("%d",&num);
 	
-	for(i=num;i>=1;i--)   			
+	for(i=1;i<=num;i++)   					//using for loop...
 	{
-		fact=fact*i;
+		fact=fact*i;				//condition...
 	}
 	printf("%d factorial...",fact);
 }

@@ -5,12 +5,12 @@
 
 main ()
 {
-	int temp=0;
+	int temp=0;				// data member....
 	
 	printf("enter temperature:");
 	scanf("%d",&temp);
 	
-	if(temp<0)
+	if(temp<0)						//condition.....if and multiple else if.....
 	{
 		printf("freezing whether...");
 	}

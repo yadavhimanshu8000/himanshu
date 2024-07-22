@@ -4,11 +4,11 @@
 
 main()
 {
-	int a[5],i,j,temp=0;
+	int a[5],i,j,temp=0;				// data member...
 	
 	printf("enter the number..\n");
 	
-	for(i=0;i<5;i++)
+	for(i=0;i<5;i++)				// using loop ...
 	{
 		printf("%d.",i+1);
 		scanf("%d",&a[i]);
@@ -16,7 +16,7 @@ main()
 	
 	printf("----------------------------\n");
 	
-	printf("ascending order...\n");
+	printf("ascending order...\n");			// ascending order...
 	
 	for(i=0;i<5;i++)
 	{

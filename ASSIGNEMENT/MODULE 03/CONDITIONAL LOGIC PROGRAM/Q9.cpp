@@ -5,12 +5,12 @@
 
 main()
 {
-	char a;
+	char a;					// data member...
 	
 	printf("enter the anything:");
 	scanf("%c",&a);
 	
-	if(a>='A' && a<='Z')
+	if(a>='A' && a<='Z')				// condition of if and multiple else if....
 	{
 		printf("uppercase.... ");
 	}

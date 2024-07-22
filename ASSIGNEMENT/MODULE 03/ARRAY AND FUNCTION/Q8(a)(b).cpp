@@ -6,10 +6,10 @@ empno, empname, address andage*/
 
 #include<stdio.h>
 
-struct employess {
+struct employess {					// using struct ......
 	
 	int empno;
-	char empname[30];
+	char empname[30];					// data member...
 	char address[30];
 	int age;
 }s[5];
@@ -21,10 +21,10 @@ main()
 	for(i=0;i<5;i++)
 	
 	{
-		printf("\nenter the emp number:");
+		printf("\nenter the emp number:");			// input....
 		scanf("%d",&s[i].empno);
 		
-		getchar();
+		getchar();									// get using for char ... after scanf... using.
 		printf("\nenter name:");
 		gets(s[i].empname);
 		

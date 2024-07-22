@@ -5,11 +5,11 @@
 
 main()
 {
-	int a[5],i;
+	int a[5],i;						// data member.....
 	
 	printf("enter the five number:\n");
 	
-	for(i=0;i<5;i++)
+	for(i=0;i<5;i++)							// loop....
 	{
 		printf("%d.",i+1);
 		scanf("%d",&a[i]);
@@ -19,7 +19,7 @@ main()
 	
 	for(i=0;i<5;i++)
 	{
-		if(a[i]==0)
+		if(a[i]==0)									// using condition if else....
 		{
 			printf("%d.",i+1);
 			printf("%d is zero..\n",a[i]);

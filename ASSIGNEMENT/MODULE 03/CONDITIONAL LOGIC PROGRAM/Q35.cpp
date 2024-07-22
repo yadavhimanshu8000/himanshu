@@ -5,11 +5,11 @@
 
 main()
 {
-	int num;
+	int num;   		//  data member
 	
 		printf("enter month of number:");
 		scanf("%d",&num);
-		
+												// condition of if ,else if and or operator... 
 	if(num==1 || num==3 || num==5 || num==7 || num==8 || num==10 || num==12 )
 	
 	{

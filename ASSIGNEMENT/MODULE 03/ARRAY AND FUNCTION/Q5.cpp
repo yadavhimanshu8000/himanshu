@@ -1,13 +1,14 @@
-// Q(05) WAP to take two Array input from user and sort them in ascending or descending order as per user’s choice.....
+/* Q(05) WAP to take two Array input from user and sort them in ascending 
+						or descending order as per user’s choice.....*/
 
 #include<stdio.h>
 
 main()
 {
-	int a[2],b[2],choice1,choice2,m,n,i,j ,temp;
+	int a[2],b[2],choice1,choice2,m,n,i,j ,temp;				// data member...
 	
 	
-	printf("enter the number:\n");
+	printf("enter the number:\n");       // input a...
 	
 		for(i=0;i<2;i++)
 	{
@@ -15,7 +16,7 @@ main()
 		scanf("%d",&a[i]);
 	}
 	
-	printf("enter the number:\n");
+	printf("enter the number:\n");			// input b.......
 	
 			for(i=0;i<2;i++)
 	{
@@ -30,15 +31,15 @@ main()
 			
 			
 	
-	      	printf("\nEnter your choice for 1st array : ");
+	      	printf("\nEnter your choice for 1st array : ");			// enter the choice...
 			scanf("%d",&choice1);
 			
-			printf("\nEnter your choice for 2st array : ");
+			printf("\nEnter your choice for 2st array : ");         // enter the choice....
 			scanf("%d",&choice2);
 		
 			printf("\n-------------------------------\n");
 			
-			if(choice1==1)
+			if(choice1==1)							// if else condition........
 			{
 				printf("for ascending order:");
 				
@@ -66,7 +67,7 @@ main()
 					for(j=i+1;j<2;j++)
 					
 					{
-						if(b[i]<b[j])
+						if(a[i]<a[j])
 						{
 							temp=a[j];
 							a[j]=a[i];

@@ -1,13 +1,16 @@
+// Q(34) Accept month number and display month name
+
+
 #include<stdio.h>
 
 main()
 {
-	int month;
+	int month;		///data member....
 	
 	printf("enter the number of month:");
 	scanf("%d",&month);
 	
-	if(month==1)
+	if(month==1)					// condition of if and multiple else if......
 	{
 		printf("\njanuary...");
 	}

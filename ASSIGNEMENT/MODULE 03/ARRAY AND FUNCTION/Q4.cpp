@@ -1,3 +1,5 @@
+//Q(4)WAP to find factorial using recursion
+
 #include<stdio.h>
 
 fact(int a)

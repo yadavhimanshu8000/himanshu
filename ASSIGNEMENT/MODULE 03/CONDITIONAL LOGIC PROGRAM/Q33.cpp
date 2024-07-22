@@ -4,12 +4,12 @@
 
 main()
 {
-	int day;
+	int day;				// data member.....
 	
 	printf("enter a number of week:");
 	scanf("%d",&day);
 	
-	if(day==1)
+	if(day==1)					///condition...... multiple else if
 	{
 		printf("\nsunday....");
 	}

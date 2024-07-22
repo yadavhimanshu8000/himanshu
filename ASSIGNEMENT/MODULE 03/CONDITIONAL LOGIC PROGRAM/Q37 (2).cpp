@@ -1,16 +1,18 @@
+// Q(37(2))Vowel or Consonant using switch case
+
 #include<stdio.h>
 
 main()
 
 {
-	char z;
+	char z;				//data member....
 	
 	printf("enter the character:");
 	scanf("%c",&z);
 	
-	switch(z)
+	switch(z)				// condition using switch case....
 	{
-		case 'a':
+		case 'a':				
 			{
 				printf("\n vowels.... character")	;
 				break;

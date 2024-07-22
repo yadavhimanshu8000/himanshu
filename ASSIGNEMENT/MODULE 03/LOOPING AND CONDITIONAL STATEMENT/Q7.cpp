@@ -4,17 +4,17 @@
 
 main()
 {
-	int n,r;
+	int n,r;				//datamember....
 	
 	printf("enter the number:");
-	scanf("%d",&n);
+	scanf("%d",&n);									
 	
-	while(n>0)
+	while(n>0)				//using while loop....
 	{
-		r=n%10;
+		r=n%10;					//stored the reminder...
 	
 		printf(" %d",r);
-		n=n/10;
+		n=n/10;				// delete the last number..... 
 	}
 		
 }

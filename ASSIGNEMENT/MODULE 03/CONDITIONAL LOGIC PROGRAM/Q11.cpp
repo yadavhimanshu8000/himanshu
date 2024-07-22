@@ -4,12 +4,12 @@
 
 main()
 {
-	int a;
+	int a;					// data member...
 	
 	printf("enter the number:");
 	scanf("%d",&a);
 	
-	(a%2==0)?
+	(a%2==0)?				// condition.... with ternary... operator..
 	
 		printf("number is even.....")
 		:printf("number is odd.....");

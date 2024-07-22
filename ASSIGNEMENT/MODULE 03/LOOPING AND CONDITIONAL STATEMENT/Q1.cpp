@@ -4,11 +4,11 @@
 
 main()
 {
-	int i;
+	int i;				//data member....
 	
 	printf("print the number.....");
 	
-	for(i=972;i>=897;i--)
+	for(i=972;i>=897;i--)			// using for loop
 	
 
 	{	

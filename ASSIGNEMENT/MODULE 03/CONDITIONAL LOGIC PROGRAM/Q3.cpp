@@ -4,12 +4,12 @@
 
 main()
 {
-	int year;
+	int year;			//data member....
 	
 	printf("enter a year:");
 	scanf("%d",&year);
 	
-	if (year%4==0)
+	if (year%4==0)				//condition...
 	{
 		printf(" leap year.");
 	}

@@ -6,12 +6,12 @@
 
 main()
 {
-	int day;
+	int day;			// data member....
 	
 	printf("enter the number:");
 	scanf("%d",&day);
 	
-	switch(day)
+	switch(day)					// condition using switch case.....
 	{
 		case 1:
 			{

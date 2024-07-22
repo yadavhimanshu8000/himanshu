@@ -4,14 +4,14 @@
 
 main()
 {
-	char a[30],r[30];
+	char a[30],r[30];						// data member....
 	int i,j,l;
 
 	
 	printf("\n enter the characater:");
 	gets(a);
       
-	for(i=0;a[i]!='\0';i++);
+	for(i=0;a[i]!='\0';i++);						// print
 		l=i;
 	for(i=0;a[i]!='\0';i++)
 	
@@ -23,7 +23,7 @@ main()
 	for(i=0;a[i]!='\0';i++)
 	
 	{
-		if(a[i]==r[i])
+		if(a[i]==r[i])								// using if else condition...
 		j=1;
 	
 	else
@@ -34,7 +34,7 @@ main()
 	
 	if(j==1)
 	{
-		printf("\npalindrome ...");
+		printf("\npalindrome ...");					// print... palindrome
 	}
 	else
 	{

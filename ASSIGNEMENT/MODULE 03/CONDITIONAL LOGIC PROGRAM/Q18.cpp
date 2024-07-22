@@ -4,7 +4,7 @@
 
 main()
 {
-	int c,s;
+	int c,s;				//data member....
 	
 	printf("enter the costprice:");
 	scanf("%d",&c);
@@ -12,7 +12,7 @@ main()
 	printf("enter the selling:");
 	scanf("%d",&s);
 	
-	if(c<s)
+	if(c<s)					//condition......
 	{
 		printf("\n you are in profit transaction...");
 	}

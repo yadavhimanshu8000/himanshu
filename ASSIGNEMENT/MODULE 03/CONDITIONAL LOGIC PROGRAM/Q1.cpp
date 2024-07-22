@@ -4,15 +4,15 @@
 
 main()
 {
-	int a,b;
+	int a,b;					// data member...
 	
 	printf("enter a number:");
 	scanf("%d",&a);
-	
+										// two input...
 	printf("\nenter b number:");
 	scanf("%d",&b);
 	
-	if(a==b)
+	if(a==b)									// a==b number is equal....
 	{
 		printf("\nnumber are equal.");
 	}
