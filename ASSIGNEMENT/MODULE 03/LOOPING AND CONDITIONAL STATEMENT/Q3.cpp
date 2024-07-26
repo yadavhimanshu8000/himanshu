@@ -1,55 +1,41 @@
+/*WAP to take 10 no. Input from user find out below values
+a. How many Even numbers are there
+b. How many odd numbers are there
+c. Sum of even numbers
+d. Sum of odd numbers*/
+
 #include<stdio.h>
 
 main()
 {
-	int h,i,m,a,n,s,u,z,j,t;
+	int a[10],evencount=0,oddcount=0,sumeven=0,sumodd=0,i;
 	
-	printf("enter the number:");
-	scanf("%d",&h);
+	printf("Enter 10 numbers : \n");
 	
-	printf("enter the number:");
-	scanf("%d",&i);
-	
-	printf("enter the number:");
-	scanf("%d",&m);
-	
-	printf("enter the number:");
-	scanf("%d",&a);
-	
-	printf("enter the number:");
-	scanf("%d",&n);
-	
-	printf("enter the number:");
-	scanf("%d",&s);
-	
-	printf("enter the number:");
-	scanf("%d",&u);
-	
-	printf("enter the number:");
-	scanf("%d",&z);
-	
-	printf("enter the number:");
-	scanf("%d",&j);
-	
-	printf("enter the number:");
-	scanf("%d",&t);
-	
-	
-		if(h%2==0 || i%2==0 || m%2==0 || a%2==0 || n%2==0 || s%2==0 || u%2==0 || z%2==0 || j%2==0 || t%2==0 )
-		{
-			printf("\neven number... %d",h);
-				printf("\neven number...%d",i);
-					printf("\neven number...%d",m);
-		}
-		else
-		
+	for(i=0; i<10; i++)		//take inputs from user.
 	{
-		printf("no");
+		printf("%d. ",i+1);
+		scanf("%d",&a[i]);
 	}
-		
-		
+	
+	for(i=0; i<10; i++)
+	{
+		if(a[i]%2==0)		//find even numbers and their sum
+		{
+			evencount++;
+			sumeven += a[i];
+		}
+		else				//find odd numbers and their sum
+		{
+			oddcount++;
+			sumodd += a[i];
+		}
+	}
 	
 	
-	
-
+				//print all the values
+	printf("\nNumber of even numbers : %d \n",evencount);
+	printf("Sum Of all even numbers : %d \n\n",sumeven);
+	printf("Number of odd numbers : %d \n",oddcount);
+	printf("Sum Of all odd numbers : %d \n\n",sumodd);
 }

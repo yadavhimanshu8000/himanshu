@@ -8,7 +8,7 @@ main()
 	int a,i,x=1,y=2;
 	
 	printf("enter the number:");
-	scanf("%d",&a);
+	scanf("%d",&a);				//user input
 	
 	
 	printf("\n   *******series********");
@@ -16,15 +16,16 @@ main()
 	
 	printf("\n %d \n %d",x,y);
 	
-	for(i=3;i<=a;i++)+
+				//print series
+	for(i=3;i<=a;i++)		
 	
 	
-	if(i%2==1)
+	if(i%2==1)		//for odd term number
 	{
 		x=x*3;
 		printf("\n %d",x);
 	}
-	else
+	else			//for even term number..
 	{
 		y=y*3;
 		printf("\n %d",y);

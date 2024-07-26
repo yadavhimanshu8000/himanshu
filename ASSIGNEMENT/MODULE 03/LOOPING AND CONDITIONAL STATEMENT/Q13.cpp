@@ -4,15 +4,15 @@
 
 main()
 {
-	int i=1,n,fact=1;
+	int i=1,n,fact=1;								//data member...
 	
 	printf("enter the number :");
 	scanf("%d",&n);
 	
-	while(i<=n)
+	while(i<=n)										//using while loop
 	{
 		fact=fact*i;
-		i++;
+		i++;										//increment....
 	}
 	printf(" factorial...%d",fact);
 }

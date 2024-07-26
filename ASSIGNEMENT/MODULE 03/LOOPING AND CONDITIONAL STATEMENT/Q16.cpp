@@ -2,18 +2,18 @@
 
 main()
 {
-	int i=1,a,sum=0;
+	int i=1,a,sum=0;							//data member...
 	
 	printf("enter the number:");
 	scanf("%d",&a);
 	
-	while(i<=a)
+	while(i<=a)						//using while loop..
 	
 	{
 			printf(" %d+ ",i);
 		sum=sum+i;
 		
-		i++;
+		i++;									//increment...
 	
 		
 		

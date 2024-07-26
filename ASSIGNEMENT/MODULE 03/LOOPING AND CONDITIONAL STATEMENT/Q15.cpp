@@ -4,11 +4,11 @@
 
 main()
 {
-	int i=1,sum=0;
+	int i=1,sum=0;								//data member...
 	
 	printf("sum of ten number...");
 	
-	while(i<=10)
+	while(i<=10)								// using while loop...
 	{
 		sum=sum+i;
 		
@@ -16,7 +16,7 @@ main()
 		
 		printf(" %d+ ",i);
 		
-		i++;
+		i++;									//increment...
 	
 	}
 	printf(" \n \naddtion %d",sum);
