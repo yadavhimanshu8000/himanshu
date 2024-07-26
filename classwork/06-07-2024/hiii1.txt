@@ -1,2 +1,3 @@
-hiiii world
-kutta
+abstraction= data hiding 
+		
+		virtual function meaing>> blank...

@@ -10,18 +10,14 @@
 main()
 
 {
-	int i,j,k,n=65;
+	int i,k,n=65;			//data member....
 	
-	for(i=1;i<=5;i++)
+	for(i=1;i<=5;i++)				//loop using for row...
 	{
-		for(j=1;j<=5;j++)
-		{
-			printf("");
-		}
-		for(k=1;k<=i;k++)
+		for(k=1;k<=i;k++)			// for using column...
 		{
 			printf("%c",n);
-			n++;
+			n++;					// n increment....
 		}
 		printf("\n");
 	}

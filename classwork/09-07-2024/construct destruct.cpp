@@ -1,3 +1,4 @@
+
 #include"iostream"
 
 using namespace std;
@@ -35,7 +36,8 @@ class Hello{
 	else 
 	{
 		cout<<"\nnot a prime number";
-}
+	}
+	
 	}
 
    	~Hello()										//destructor

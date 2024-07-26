@@ -4,17 +4,17 @@
 
 main()
 {
-	int n,i,sum=0;
+	int n,i,sum=0;							// data member.....
 	
 	printf("enter the number:");
 	scanf("%d",&n);
 	
 		printf("\n\n Series : \n\n");
 	
-	for(i=1;i<=n;i++)
+	for(i=1;i<=n;i++)											//for loop...
 	
 	{
-		sum=sum+i*i;
+		sum=sum+i*i;							// add i+i
 		
 		if(i==n)
 		printf("(%d*%d)",i,i);
@@ -23,5 +23,5 @@ main()
 		printf("(%d*%d) + ",i,i);
 		
 	}
-	printf(" = %d",sum);
+	printf(" = %d",sum);													// print...
 }

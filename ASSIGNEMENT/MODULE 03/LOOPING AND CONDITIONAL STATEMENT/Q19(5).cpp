@@ -10,18 +10,14 @@
 
 main()
 {
-	int i,j,h,k=1;
+	int i,j,h,k=1;								// data member....
 	
-	for(i=1;i<=5;i++)
+	for(i=1;i<=5;i++)				// using loop for row....
 	{
-		for(j=1;j<=5;j++)
-		{
-			printf("");
-		}
-		for(h=1;h<=i;h++)
+		for(h=1;h<=i;h++)					// using loop for column...
 		{
 			printf("%d ", k);
-			k++;
+			k++;								// k increment.....
 		}
 		printf("\n");
 	}

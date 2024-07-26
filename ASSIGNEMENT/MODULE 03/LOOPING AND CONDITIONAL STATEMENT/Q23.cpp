@@ -4,12 +4,12 @@
 
 main()
 {
-	int i,n;
+	int i,n;							// data member....
 	
 	printf("enter the number:");
 	scanf("%d",&n);
 	
-	for(i=n;i>=1;i--)
+	for(i=n;i>=1;i--)							// using for loop for reverse
 
 	{	
 		printf("\n %d",i);

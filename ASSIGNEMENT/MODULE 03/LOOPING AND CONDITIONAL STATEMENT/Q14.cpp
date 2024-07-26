@@ -1,62 +1,29 @@
+// Q(14) Accept 5 numbers from user and find those numbers factorials...
+
 #include<stdio.h>
 
 main()
 {
-	int a,b,c,d,e;
+	int a[5];						//data member...
 	int fact=1;
-	int i;
+	int i,j;
 	
-	printf("enter first number :\n");
-	scanf("%d",&a);
+	for(i=0;i<5;i++)					// loopping
+	{
+		printf("%d .",i+1);
+		scanf("%d",&a[i]);
+	}
 	
-	printf("enter second number:\n");
-	scanf("%d",&b);
-	
-	printf("enter third number:\n");
-	scanf("%d",&c);
-	
-	printf("enter forth number:\n");
-	scanf("%d",&d);
-	
-	printf("enter fifth number:\n");
-	scanf("%d",&e);
-	
-	for(i=1;i<=a;i++)
+	for(j=0;j<5;j++)						//using loopping...
+	{
+		fact=1;									// fact=1
+	for(i=1;i<=a[j];i++)
 	{
 		fact=fact*i;
 	}
-	printf("\nfactorial.... a= %d",fact);
-	
-	fact=1;
-	
-	for(i=1;i<=b;i++)
-	{
-		fact=fact*i;
-	}
-	printf("\nfactorial.... b= %d",fact);
-	
-		fact=1;
-	
-	for(i=1;i<=c;i++)
-	{
-		fact=fact*i;
-	}
-	printf("\nfactorial.... c= %d",fact);
-	
-		fact=1;
-	
-	for(i=1;i<=d;i++)
-	{
-		fact=fact*i;
-	}
-	printf("\nfactorial.... d= %d",fact);
-	
-		fact=1;
-	
-	for(i=1;i<=e;i++)
-	{
-		fact=fact*i;
-	}
-	printf("\nfactorial.... e= %d",fact);
-		
+	printf("factorial is: %d \n",fact);
 }
+}
+	
+	
+

@@ -11,13 +11,9 @@ main()
 {
 	int i,j,q;
 	
-	for(i=1;i<=5;i++)		//row
+	for(i=1;i<=5;i++)		//loop using for row
 	{
-		for(j=1;j<=5;j++)
-		{
-			printf("");
-		}
-		for(q=1;q<=i;q++)		// column
+		for(q=1;q<=i;q++)		//loop using for column
 		{
 		  printf("%c ",q+64);
 		}
