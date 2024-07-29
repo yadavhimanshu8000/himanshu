@@ -5,26 +5,24 @@ using third variable */
 
 using namespace std;
 
-class swa{
+class swa{						// create class..
 	public:
 		
-		int a,b;
+		int a,b;				// data member..
 		
-		friend fun1(swa &t);
+		friend fun1(swa &t);						// using friend function..
 };
 
 	fun1(swa &t)
-	
-	
 	    {
-		
-			
+	
 		cout<<"enter the A:";
 		cin>>t.a;
 		
 		cout<<endl<<"enter the B:";
 		cin>>t.b;
 		
+				// without use of third variable.
 		t.b=t.a*t.b;
 		t.a=t.b/t.a;
 		t.b=t.b/t.a;
@@ -38,6 +36,6 @@ class swa{
 
 main()
 {
-	swa obj;
+	swa obj;			// create obj.
 	fun1(obj);
 }

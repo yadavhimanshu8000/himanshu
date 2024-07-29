@@ -8,14 +8,14 @@ Write also Main function (hierarchy Inheritance)*/
 
 using namespace std;
 
-class person{
+class person{			// create class..
 	protected:
 		
 		string name;
 		int age;
 		
 		public:
-		fun1()
+		fun1()				// member function...
 		{
 			
 			cout<<"enter the name:";
@@ -26,19 +26,20 @@ class person{
 		}
 };
 
+					// create second class and inheritance first class...
 	class student:public person{
 		private:
 			
-			float percentage;
+			float percentage;				// data member...
 			
 			public:
-			fun2()
+			fun2()				// member function...
 			{
 				cout<<endl<<"enter the percenatge:";
 				cin>>percentage;
 			}
 			
-			fun3()
+			fun3()				// member function...
 			{
 				cout<<"\n---------------------------------------------\n";
 				cout<<endl<<"****student data****"<<endl;
@@ -50,20 +51,22 @@ class person{
 			}
 	};
 	
-	class teacher:public person{
+	
+					// create third class and inheritance the first class...
+	class teacher:public person{			
 		private:
 			
-			int salary;
+			int salary;				// data member..
 			
 			public:
-				fun4()
+				fun4()				// member function...
 				{
 					
 					cout<<endl<<"enter the salary:";
 					cin>>salary;
 				}
 				
-				fun5()
+				fun5()			// member function...
 				{
 					cout<<"\n-------------------------------------------\n";
 					cout<<endl<<"****teacher data****"<<endl;
@@ -75,11 +78,11 @@ class person{
 
 main()
 {
-	student obj;
+	student obj;					// create obj
 	obj.fun1();
 	obj.fun2();
 	obj.fun3();
-	teacher obj1;
+	teacher obj1;					// create second obj1...
 	obj1.fun1();
 	obj1.fun4();
 	obj1.fun5();

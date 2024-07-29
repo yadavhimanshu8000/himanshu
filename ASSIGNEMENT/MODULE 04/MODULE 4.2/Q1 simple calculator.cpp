@@ -1,14 +1,14 @@
-// WAP to create simple calculator using class....
+// *WAP to create simple calculator using class....
 
 #include<iostream>
 
 using namespace std;
 
-class calculator{							//class declared...
+class calculator{														//CLASS DECLARED...
 	public:
-		int a,b;
+		int a,b;			// DATA MEMBER...
 		
-		fun1()								// function1 
+		fun1()									// MEMEBER FUNCTION...
 		{
 			cout<<"enter the A:";
 			cin>>a;
@@ -23,12 +23,12 @@ class calculator{							//class declared...
 			cout<<"addition:"<<a+b<<endl;
 			cout<<"substraction:"<<a-b<<endl;
 			cout<<"multiple:"<<a*b<<endl;
-			cout<<"division:"<<(float)a/b<<endl;					// using float for div...
+			cout<<"division:"<<(float)a/b<<endl;					// USING FLOAT FOR DIV...
 		}
 };
 
 main()
 {
-	calculator obj;
-	obj.fun1();
+	calculator obj;							//	OBJ CREATE
+	obj.fun1();									
 }

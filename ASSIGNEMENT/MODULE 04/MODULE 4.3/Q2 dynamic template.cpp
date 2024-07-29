@@ -4,9 +4,10 @@
 
 using namespace std;
 
-template <typename T>					//using template...
+		//using template...
+template <typename T>				
 
-class A{								// create class...
+class A{								// create class A ...
 	public:
 		
 		T a[5];						//using array..
@@ -17,14 +18,15 @@ class A{								// create class...
 		{
 			cout<<"enter the array."<<endl;
 			
-			for(i=0;i<5;i++)				//using loop display input...
+						//using loop display input...
+			for(i=0;i<5;i++)			
 			{
 				cout<<i+1<<" ";
 				cin>>a[i];
 			}
 		}
 		
-		T sorting()								//using function.....
+		T sorting()								//using member function.....
 		{
 			T temp;
 			

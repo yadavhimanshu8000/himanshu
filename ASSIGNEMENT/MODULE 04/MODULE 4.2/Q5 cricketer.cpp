@@ -1,25 +1,25 @@
 /*Assume a class cricketer is declared. Declare a derived class batsman from 
-cricketer. Data member of batsman. Total runs, Average runs and best 
-performance. Member functions input data, calculate average runs, Display 
-data. (Single Inheritance) */
+*cricketer. Data member of batsman. Total runs, Average runs and best 
+*performance. Member functions input data, calculate average runs, Display 
+*data. (Single Inheritance) */
 
 #include<iostream>
 
 using namespace std;
 
-class cricketer{
+class cricketer{									//create class...
 	protected:
 		
 		string name;
 	
 		
-		cricketer()
+		cricketer()						//using constructor...
 		{
 		cout<<"enter batsman name:";
 		getline(cin,name);
 		}
 		
-			~cricketer()
+			~cricketer()							// using destructor...
 		{
 			cout<<"\n*THE END*"<<endl;
 		}
@@ -27,7 +27,8 @@ class cricketer{
 		
 };
 
-	class batsman:public cricketer{
+				// create second class and inheritance cricketer class
+	class batsman:public cricketer{				
 			public:
 				
 				int match;
@@ -36,7 +37,7 @@ class cricketer{
 				int c;
 				
 				
-				fun1(){
+				fun1(){										// member function...
 					
 				cout<<endl<<"enter the total match played:";
 				cin>>match;
@@ -49,12 +50,13 @@ class cricketer{
 			
 		}
 		
-		average()
+		average()										// member function...
 		{
-				c=runs/(float)match;
+						// find average runs divide by match...
+				c=runs/(float)match;		
 		}
 		
-		display()
+		display()							// member function...
 		{
 			cout<<"\n----------------------------------------------\n";
 			cout<<endl<<"name:"<<name<<endl;
@@ -64,13 +66,12 @@ class cricketer{
 			cout<<endl<<"best runs score:"<<performance<<endl;
 		}
 		
-			
-			
+				
 		};
 
 main()
 {
-	batsman obj;
+	batsman obj;				// create obj...
 	obj.fun1();
 	obj.average();
 	obj.display();

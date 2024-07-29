@@ -1,30 +1,32 @@
 /*Write a program to Mathematic operation like Addition, Subtraction, 
-Multiplication, Division Of two number using different parameters and 
-Function Overloading*/
+*Multiplication, Division Of two number using different parameters and 
+*Function Overloading*/
 
 #include<iostream>
 
 using namespace std;
 
-class mathematic{
+class mathematic{				// create class ..
 	public:
 		
-		fun(int a, int b)
+		
+				// same member function but different parameters...
+		fun(int a, int b)							// using int a and int b.										
 		{
 			cout<<endl<<"addition the two number:"<<a+b<<endl;
 		}
 		
-		fun(int a, float b)
+		fun(int a, float b)							// using int a and float b.
 		{
 			cout<<endl<<"substraction the two number:"<<a-b<<endl;
 		}
 		
-		fun(float a, float b)
+		fun(float a, float b)						// using float a and float b.
 		{
 			cout<<endl<<"multiplication the two number:"<<a*b<<endl;
 		}
 		
-		fun(double a ,double b)
+		fun(double a ,double b)						// using double a and double b.
 		{
 			cout<<endl<<"division the two number:"<<(float) a/b<<endl;
 		}
@@ -32,7 +34,7 @@ class mathematic{
 
 main()
 {
-	mathematic obj;
+	mathematic obj;						// create obj.
 	obj.fun(20,40);
 	obj.fun((int)10,(float)20);
 	obj.fun((float)40,(float)50);

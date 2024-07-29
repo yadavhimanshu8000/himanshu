@@ -11,20 +11,22 @@ Circle: Pi * Area *Area
 
 using namespace std;
 
-class calculate{						// one class....
+class calculate{						// create one class....
 	public:
 		
-		fun(int radius)										// function overloading...
+		
+				// same member function but different parameters...
+		fun(int radius)										// using int radius.
 		{
 			cout<<endl<<" area of circle:"<<3.14*radius*radius<<endl;
 		}
 		
-		fun(int length ,int height)							// function overloading...
+		fun(int length ,int height)							// using int length and int heigth.
 		{
 			cout<<endl<<" area of rectangle:"<<length*height<<endl;
 		}
 		
-		fun(int base, float height)							// function overloading...
+		fun(int base, float height)							// using int base and float height.
 		{
 			cout<<endl<<" area of triangle:"<<base*height*0.5<<endl;
 		}
@@ -55,5 +57,6 @@ main()
 	
 	cout<<"enter the height:";									// input height...
 	cin>>triheight;
+	
 	obj.fun(base,(float)triheight);	
 }

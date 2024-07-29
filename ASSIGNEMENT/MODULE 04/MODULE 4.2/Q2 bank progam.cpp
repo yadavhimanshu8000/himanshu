@@ -18,69 +18,69 @@ using namespace std;
 class A{
 	private:
 		
-		string name;					// all are data members...
+		string name;					// ALL ARE DATA MEMBER...
 		float account;
 		string type_of_account;
 		float balance;
 		
 		public: 
 		
-		fun1()							// member function....
+		fun1()							// MEMBER FUNCTION....
 		
 		{
 		
-			cout<<"enter the depositor name:";				// name ,no, and type,.... input
+			cout<<"enter the depositor name:";				// NAME INPUT
 			cin>>name;
 			
-			cout<<endl<<"enter the account number:";
+			cout<<endl<<"enter the account number:";		//	ACCOUNT NUMBER INPUT
 			cin>>account;
 			
-			cout<<endl<<"enter the types of account:";
+			cout<<endl<<"enter the types of account:";		// TPES OF ACCOUNT INPUT
 			cin>>type_of_account;
 			
 				
 		}
 		
-		deposited()								// function for deposited amount...
+		deposited()								// MEMBER FUNCTION FOR DEPOSITED AMOUNT...
 		{
 			float a;
 				
 			cout<<"\n-------------------------------------------------\n";
-			cout<<"enter the deposited amount:";
+			cout<<"enter the deposited amount:";								//DEPOSITED AMOUNT...
 			cin>>a;
 			
-			balance+=a;
+			balance+=a;								// ADD DEPOSITED AMOUNT IN BALANCE.
 			
 			cout<<"total balance:"<<balance<<endl;
 			
 			
 				
 		}
-		withdraw()										// function for withdraw amount...
+		withdraw()										// MEMBER FUNCTION FOR WITHDRAW AMOUNT...
 		{
 			float b;
 			
 			cout<<"\n-------------------------------------------------\n";
 			
-			cout<<"enter amount how much withdraw:";
+			cout<<"enter amount how much withdraw:";				//WITHDRAW AMOUNT
 			cin>>b;
 			
-			if(b<=balance)
+			if(b<=balance)						//CONDITION..
 				{
-					balance -= b;
+					balance -= b;											// WITHDRAW AMOUNT - FROM BALANCE.
 					
 					cout<<"total balance:"<<balance<<endl;
 				}
 				
 				else
 				{
-					cout<<endl<<"paise nhi hai aukat mai hai raha..."<<endl;
+					cout<<endl<<"INSUFFICIENT BALANCE..."<<endl;
 				}
 				
 		
 		}
 		
-		display()								// function for display the name and total balance
+		display()								// FUNCTION FOR DISPLAY THE NAME AND TOTAL BALANCE
 		{
 			cout<<"\n-------------------------------------------------\n";
 			cout<<"name:"<<name<<endl;
@@ -95,7 +95,7 @@ class A{
 
 main()
 {
-	A obj;
+	A obj;						//OBJ CREATE..
 	obj.fun1();
 	obj.deposited();
 	obj.withdraw();
