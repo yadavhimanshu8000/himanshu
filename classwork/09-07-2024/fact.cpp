@@ -2,8 +2,13 @@
 
 using namespace std;
 
-main()
-{
+class factorial{
+	
+	public:
+		
+	fun()
+	{
+	
 	int n,i,fact=1;
 	
 	cout<<"enter the number:";
@@ -14,6 +19,14 @@ main()
 		fact=fact*i;
 		
 	}
-	cout<<"factorial:"<<fact;
+	cout<<endl<<"factorial:"<<fact;
 	
 }
+};
+
+main()
+{
+	factorial obj;
+	obj.fun();
+}
+
