@@ -10,6 +10,6 @@ T fun(T a, T b)
 
 main()
 {
-	fun<int>(5,8);
-	fun<char>('a','b');
+	 fun<int>(5,8);
+	 fun<char>('a','b');
 }

@@ -30,7 +30,7 @@ class image{
 
 main()
 {
-	image I1(100,50),I2(200,15);
+	image I1(100,200),I2(200,300);
 	
 	image I3=I1+I2;
 	

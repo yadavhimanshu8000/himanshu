@@ -34,7 +34,7 @@ class test:public student{
 		marks()											// member function..
 		{
 			cout<<endl<<"enter the maths marks:";
-			cin>>m;
+			cin>>a;
 			
 			cout<<endl<<"enter the english marks:";
 			cin>>e;	

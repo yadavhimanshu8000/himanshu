@@ -30,5 +30,5 @@ class z{
 
 main()
 {
-	z obj(9);
+	z obj(7);
 }

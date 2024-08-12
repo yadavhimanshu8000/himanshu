@@ -5,7 +5,7 @@ using namespace std;
 class A
 {
 	protected:
-		int a ,b;
+		
 		A()
 		{
 			cout<<"this is hybrid..."<<endl;
