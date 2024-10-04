@@ -1,14 +1,14 @@
-"""n=int(input("enter the no:"))
+n=int(input("enter the no:"))
 
 fact=1
 for i in range (1,n+1):
     fact*=i
 
-    print(fact)
+print(fact)
 
-   """ 
+    
 
-"""
+
 n=int(input("enter the number"))
 
 n1=0
@@ -24,17 +24,17 @@ for i in range(3,n+1):
     n1=n2
     n2=n3
 
-    """
+    
 
 
 
-"""
+
 for i in range(1,6):
     for j in range (1,i+1):
         print("*", end="")
 
     print()
-"""
+
 
 """
 for i in range(1,6):

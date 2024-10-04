@@ -8,7 +8,7 @@ else:
     n1=int(len(n)/2)
     print(n[n1-1]+n[n1]+n[n1+1])
 
-
+'''
 s=(input("enter the string:"))
 
 s1=s[::-1]
@@ -18,4 +18,4 @@ if s==s1:
 
 else:
     print("not palindrome")
-    
+    '''
