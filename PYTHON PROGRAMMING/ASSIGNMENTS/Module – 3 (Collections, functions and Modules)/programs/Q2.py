@@ -1,3 +1,9 @@
+
+# Write a Python function to get the largest number, smallest num and sum 
+# of all from a list.
+
+
+
 def hello(numbers):
     if not numbers:          # Check if the list is empty
                        

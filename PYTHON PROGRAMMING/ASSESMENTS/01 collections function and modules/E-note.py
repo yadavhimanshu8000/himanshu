@@ -1,3 +1,5 @@
+                # used import logging module for message...
+
 import logging
 
 file = open("notes1.txt","w")
@@ -5,6 +7,7 @@ file.close()
 
 logging.basicConfig(filename='application.log', level=logging.INFO, format='%(asctime)s %(message)s')
 
+            # using while loop method ...
 while True:
     print("------------------------------------------------")
     print("Welcome to Python E - Note")
@@ -25,6 +28,7 @@ while True:
         
         note = f" \nGenerator_name: {name} \nE-Note Title: {title} \nE-Note Content: {content}\n"+"-"*30
 
+                                    # data are added in note...
         file=open("notes1.txt","a")
         file.write(note)
         file.close()
@@ -38,7 +42,8 @@ while True:
     elif num==2:
         print()
         print("------------ Your Notes -----------------")
-       
+
+                                # read the notess...
         file=open("notes1.txt","r")
         notes = file.readlines()
         

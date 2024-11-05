@@ -197,15 +197,31 @@ for i in range(len(d)):
 
 print(dic)
 '''
-d1={1:'a',2:'b'}
-d2={1:'c',2:'d'}
+# d1={1:'a',2:'b'}
+# d2={1:'c',2:'d'}
 
-dt={}
+# dt={}
 
 
-for i in d1:
-    dt[i]=d1[i]+d2[i]
-print(d1)
-print(d2)
-print(dt)
+# for i in d1:
+#     dt[i]=d1[i]+d2[i]
+# print(d1)
+# print(d2)
+# print(dt)
   
+
+string_= "Name:Himanshu, Age: 22, Home: Ahmedabad"
+
+dict_string={}
+
+                        # using of split for , in dict..
+for i in string_.split(","):
+
+                        # using split on : ...
+    keys,values = i.split(":")
+                            # keys = values....
+    dict_string[keys]=values
+
+print(f"String convert into dict: {dict_string}")
+
+
