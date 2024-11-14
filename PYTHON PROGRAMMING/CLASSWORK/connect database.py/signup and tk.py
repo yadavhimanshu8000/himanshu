@@ -2,6 +2,9 @@ from tkinter import *
 from create_database import *
 from tkinter import messagebox
 import pymysql
+from loginpage import * 
+
+
 
 root = Tk()
 
@@ -66,8 +69,7 @@ password.place(x=60,y=200)
 confirm_password= Label(root,text="confirm_password: ",font=("verdana",20,"bold"))
 confirm_password.place(x=60,y=250)
 
-submit=Button(root,text="submit",bg="lightgreen",font=("calibri",20,"bold"),command=insert)
-submit.place(x=50,y=500,height=40,width=300)
+
 
 ename=Entry(root,bg="lightgreen",font=("calibri",20,"bold"))
 ename.place(x=400,y=50,height=40,width=300)
@@ -84,7 +86,16 @@ epassword.place(x=400,y=200,height=40,width=300)
 cpassword=Entry(root,bg="lightgreen",font=("calibri",20,"bold"))
 cpassword.place(x=400,y=250,height=40,width=300)
 
+
+submit=Button(root,text="submit",bg="lightgreen",font=("calibri",20,"bold"),command=insert)
+submit.place(x=50,y=500,height=40,width=300)
+
+login=Button(root,text="Log In",bg="violet",font=("calibri",20,"bold"),command=lambda : login1(root))
+login.place(x=500,y=500,height=40,width=300)
+
 submit.bind("<Enter>", on_enter)
 submit.bind("<Leave>", on_leave)
+
+
 
 root.mainloop()

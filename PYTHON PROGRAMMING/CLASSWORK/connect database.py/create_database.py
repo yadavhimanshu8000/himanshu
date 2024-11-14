@@ -9,5 +9,5 @@ mydata.commit()
 mydata=pymysql.connect(host="localhost",user="root",password="",database="dataform07")
 mycursor=mydata.cursor()
 
-mycursor.execute("create table if not exists d_mart (id int primary key auto_increment, name varchar(30), email varchar(20), mobile int unique key, password int)")
+mycursor.execute("create table if not exists d_mart (id int primary key auto_increment, name varchar(30), email varchar(20), mobile bigint unique key, password int)")
 mydata.commit()
