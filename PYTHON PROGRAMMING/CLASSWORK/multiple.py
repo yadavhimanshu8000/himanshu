@@ -1,45 +1,61 @@
-class A:
-     def fac(self):
+# class A:
+#      def fac(self):
 
-        num=int(input("Enter Number: "))
-        fact=1
+#         num=int(input("Enter Number: "))
+#         fact=1
 
-        for i in range(1,num+1):
+#         for i in range(1,num+1):
 
-            fact=fact*i
+#             fact=fact*i
 
-        print(fact)
+#         print(fact)
 
-class B:
+# class B:
 
-    def even(self):
+#     def even(self):
 
-        num=int(input("Enter Number: "))
+#         num=int(input("Enter Number: "))
 
-        if num%2==0:
-            print(f"{num} Even Number...")
+#         if num%2==0:
+#             print(f"{num} Even Number...")
 
-        else:
-            print(f'{num} Odd Number...')
-
-
-class C(A,B):
-
-    def pattern(self):
-        print("....pattern....")
-        for i in range(1,6):
-            for j in range(1,i+1):
-                print('*',end="")
-
-            print()
+#         else:
+#             print(f'{num} Odd Number...')
 
 
-obj=C()
-obj.fac()
-obj.even()
-print("--------------------")
-obj.pattern()
-print("--------------------")
+# class C(A,B):
+
+#     def pattern(self):
+#         print("....pattern....")
+#         for i in range(1,6):
+#             for j in range(1,i+1):
+#                 print('*',end="")
+
+#             print()
+
+
+# obj=C()
+# obj.fac()
+# obj.even()
+# print("--------------------")
+# obj.pattern()
+# print("--------------------")
+
+
+# for i in range(6):
+#     for k in range(65,65+i):
+#         print(chr(k),end="")
+
+#     print()
+
+
+
+
+
+
+
+
+
 
         
     
