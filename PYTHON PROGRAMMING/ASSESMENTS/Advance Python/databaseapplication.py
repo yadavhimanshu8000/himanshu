@@ -34,7 +34,8 @@ mycursor.execute("""
         Password VARCHAR(30),
         gender VARCHAR(10),
         city VARCHAR(30),
-        state VARCHAR(30)
+        state VARCHAR(30),
+        balance decimal(10,2)
     )
 """)
 mydb.commit()
