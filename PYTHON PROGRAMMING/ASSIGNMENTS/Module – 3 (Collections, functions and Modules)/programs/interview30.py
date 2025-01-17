@@ -128,10 +128,9 @@
 # d={'vishal': 120,'himanshu':124, 'lucky':100}
 # d1={'jayesh': 111,'himanshu':124, 'jiyu': 7}
 
-# final =d.update(d1)
+# d.update(d1)
 
-# print(final)
-
+# print(d)
 # --------------------------------------------------------------------------------------------------
 
 # d={'vishal': 120,'himanshu':124, 'lucky':100}
@@ -216,14 +215,125 @@
 
 
 
-d={'vishal': 120,'himanshu':124, 'lucky':100}
+# d={'vishal': 120,'himanshu':124, 'lucky':100}
 
 
-hello=input("enter string: ")
+# hello=input("enter string: ")
 
-if hello in d.keys():
-    print(f'You Enter {hello}')
-    print(f"key the 'value' {d[hello]}")
+# if hello in d.keys():
+#     print(f'You Enter {hello}')
+#     print(f"key the 'value' {d[hello]}")
+
+
+
+# --------------------------------------------------------------------------------------
+
+# def greater_num(s):
+#     string=s[0]
+
+#     for i in s:
+#         if i > string:
+#             string= i
+
+#     return string
+
+# print(greater_num([1,5,8,9,6,3,5,2,1]))
+
+
+
+# --------------------------------------------------------------------------------
+
+# def reverse_str(h):
+
+#     reverse= ''
+
+#     for i in h:
+#         reverse= i + reverse
+
+#     return reverse
+
+# print(reverse_str('hello'))
+
+
+# -----------------------------------------------------------------------------------
+
+# def palindrome(s):
+
+#     if s==s[::-1]:
+#         return 'palindrome'
+
+#     else:
+#         return 'not'
+
+# print(palindrome('momm'))
+
+# --------------------------------------------------------------------------------------
+
+# def count_char(s,i):
+#     return s.count(i)
+
+# print(count_char('hellooooooooo','o'))
+
+
+# --------------------------------------------------------------------------------
+
+# hello=input("enter string: ")
+
+# s='h'
+
+# hii=hello.count(s)
+
+# print(hii)
+
+# --------------------------------------------------------------------
+
+
+# def common(list1,list2):
+#     return list(set(list1) & set(list2))     # and operator are used for common. find intersection of two string
+
+
+# print(common([1,2,3,4,5], [5,4,2,9,8,7,15]))
+
+# -------------------------------------------------------------------------
+
+# def sort_1(s):
+#     return sorted(s,key=lambda x:x[1])   # lambda fun is used for ascending and work on 2 element of each tuples
+
+# print(sort_1([(5,10), (8,9), (4,8)]))
+
+
+# # ---------------------------------------------------------------------
+
+# def duplicate(s):
+
+#     hello=[]
+
+#     for i in s:
+#         if i not in hello:
+#             hello.append(i)
+#     return hello
 
     
+# print(duplicate([1,5,8,9,5,85,2,51,25,89,5,5]))
+
+# -------------------------------------------------------------------------------
+
+
+# n = 5  # Number of rows
+
+# for i in range(1, n + 1):
+#     if i == 1:
+#         print(' ' * (n - i) + '*')
+#     elif i == n:
+#         print('*' * (2 * i - 1))
+#     else:
+#         print(' ' * (n - i) + '*' + ' ' * (2 * i - 3) + '*')
+
+
+
+
+# -----------------------------------------------------------
+
+
+
 
